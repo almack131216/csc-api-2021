@@ -1,0 +1,66 @@
+body {
+    background:#f1f1f1;
+}
+
+table {
+    background:white;
+    width:100%;
+}
+
+table tr td {
+    background:white;
+    vertical-align:top;
+    padding:5px;
+}
+
+table tr:nth-child(odd) td {
+    background:#e5e5e5;
+}
+
+table tr td.feedback span {
+    display:block;
+    padding:3px;
+}
+
+table tr td.img img {
+    display:block;
+    height:auto;
+}
+
+img.thumb {
+    width:50px;
+}
+img.primary {
+    width:75px;
+}
+img.large {
+    width:100px;
+}
+
+.error {
+    color:red;
+}
+
+.fatal {
+    background:red;
+    color:white;
+}
+
+.success {
+    background: green;
+    color:white;
+}
+
+.good {
+    color: green;
+    background:lightgreen;
+}
+
+.sql {
+    background:yellow;
+    padding:10px;
+}
+
+.info {
+    background:lightblue;
+}
